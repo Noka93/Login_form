@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(64, 184, 40);
+    padding: 10%;
+    
+}
+h1{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form_file{
+    height: 450px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+.form1{
+    width: 350px;
+    height: 450px;
+    background: white;
+}
+input{
+    width: 290px;
+    padding: 9px;
+    margin: 6px;
+    margin-left: 10%;
+    background-color: rgb(219, 213, 213);
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup{
+    display:block;
+    width:80px;
+    margin: 20px;
+    margin-left: 10%;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border-style: none;
+}
+img{
+    width: 380px;
+    height: 450px;
+    margin: none;
+    padding: none;
+}
+
+p{
+    margin-top:10%;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.signin{
+    border-style: none;
+    color: blue;
+}
+/* @media query section */
+@media screen and (max-width:1200){
+    .form_file{
+        width: 400px;
+        height: auto;
+    }
+}
